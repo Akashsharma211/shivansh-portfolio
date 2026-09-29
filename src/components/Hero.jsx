@@ -22,10 +22,16 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            {/* Small Label Pill */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent-blue/10 border border-accent-blue/30 text-accent-blue text-xs font-mono uppercase tracking-wider mb-6 backdrop-blur-md shadow-[0_0_15px_rgba(59,130,246,0.2)]">
-              <GraduationCap className="w-3.5 h-3.5" />
-              <span>B.TECH IT STUDENT · USICT DELHI</span>
+            {/* Header Badges */}
+            <div className="flex flex-wrap items-center gap-3 mb-6">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-accent-blue/10 border border-accent-blue/30 text-accent-blue text-xs font-mono uppercase tracking-wider backdrop-blur-md shadow-[0_0_15px_rgba(59,130,246,0.2)]">
+                <GraduationCap className="w-3.5 h-3.5" />
+                <span>B.TECH IT STUDENT · USICT DELHI</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-mono uppercase tracking-wider backdrop-blur-md shadow-[0_0_15px_rgba(249,115,22,0.2)]">
+                <span className="w-1.5 h-1.5 rounded-full bg-orange-400 animate-pulse" />
+                <span>Executive @ Indiebox Productions</span>
+              </div>
             </div>
 
             {/* Main Heading */}
@@ -70,7 +76,11 @@ export default function Hero() {
             <div className="mt-10 pt-6 border-t border-white/10 w-full flex flex-wrap items-center gap-6 text-xs text-slate-400 font-mono">
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-accent-blue" />
-                <span>University School of Information, Comm. & Tech</span>
+                <span>USICT · Delhi</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-orange-400" />
+                <span>Executive · Indiebox Productions</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-accent-violet" />

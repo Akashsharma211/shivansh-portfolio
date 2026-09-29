@@ -100,7 +100,11 @@ export default function About() {
                     <GraduationCap className="w-4 h-4" />
                     B.Tech Information Technology
                   </p>
-                  <p className="text-xs text-slate-400 flex items-center justify-center gap-1.5">
+                  <div className="inline-flex items-center justify-center gap-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/25 text-orange-400 text-xs font-mono">
+                    <span className="w-1.5 h-1.5 rounded-full bg-orange-400 animate-pulse" />
+                    <span>Executive @ Indiebox Productions</span>
+                  </div>
+                  <p className="text-xs text-slate-400 flex items-center justify-center gap-1.5 pt-0.5">
                     <MapPin className="w-3.5 h-3.5 text-slate-500" />
                     USICT, Delhi
                   </p>

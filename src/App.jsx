@@ -3,6 +3,7 @@ import AmbientBackground from './components/AmbientBackground';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Experience from './components/Experience';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import Contributions from './components/Contributions';
@@ -27,6 +28,7 @@ export default function App() {
       <main className="relative z-10 flex flex-col">
         <Hero />
         <About />
+        <Experience />
         <Education />
         <Skills />
         <Contributions />

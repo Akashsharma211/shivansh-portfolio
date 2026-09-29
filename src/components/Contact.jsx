@@ -10,7 +10,8 @@ import {
   Send,
   MessageSquareCode,
   User,
-  ExternalLink
+  ExternalLink,
+  Briefcase
 } from 'lucide-react';
 
 export default function Contact() {
@@ -18,6 +19,7 @@ export default function Contact() {
 
   const contactData = {
     name: 'Shivansh',
+    role: 'Executive @ Indiebox Productions',
     degree: 'B.Tech IT, USICT',
     location: 'Delhi',
     phone: '9868730552',
@@ -102,6 +104,16 @@ export default function Contact() {
                   <div>
                     <p className="text-[11px] font-mono text-slate-400 uppercase tracking-wider">Name</p>
                     <p className="text-base font-bold text-white mt-0.5">{contactData.name}</p>
+                  </div>
+                </div>
+
+                <div className="p-4 rounded-2xl bg-dark-950/60 border border-white/5 flex items-start gap-4">
+                  <div className="w-10 h-10 rounded-xl bg-orange-500/10 border border-orange-500/20 flex items-center justify-center text-orange-400 shrink-0">
+                    <Briefcase className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <p className="text-[11px] font-mono text-slate-400 uppercase tracking-wider">Current Role</p>
+                    <p className="text-base font-semibold text-white mt-0.5">{contactData.role}</p>
                   </div>
                 </div>
 

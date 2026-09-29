@@ -99,20 +99,21 @@ export default function HeroOrb() {
           </div>
         </div>
 
-        {/* Bottom-Left Badge */}
+        {/* Bottom-Left Badge: Indiebox Productions Role */}
         <div
           className="absolute -bottom-4 -left-4 sm:left-2 z-20 glass-card px-3 py-2 rounded-xl border border-white/15 shadow-xl flex items-center gap-2.5 animate-float-reverse"
           style={{ animationDelay: '2.5s' }}
         >
-          <div className="w-7 h-7 rounded-lg bg-accent-violet/20 text-accent-violet flex items-center justify-center">
-            <Sparkles className="w-4 h-4" />
+          <div className="w-7 h-7 rounded-lg bg-white p-1 shrink-0 flex items-center justify-center shadow-sm">
+            <img
+              src="/indiebox.png"
+              alt="Indiebox Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
           <div className="text-left">
-            <p className="text-[10px] text-slate-400 font-mono">Status</p>
-            <p className="text-xs font-semibold text-emerald-400 flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-              Active Explorer
-            </p>
+            <p className="text-[10px] text-orange-400 font-mono">Executive</p>
+            <p className="text-xs font-semibold text-white">Indiebox Productions</p>
           </div>
         </div>
 
